@@ -1,0 +1,51 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0 0 0;
+}
+
+.streaming_btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: .5rem 1rem;
+  letter-spacing: .4px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 3px solid #FF993A;
+  background-color: #ffb570;
+}
+
+.opening_price_section {
+  text-align: center;
+  width: 12rem;
+  margin: 2rem auto;
+  background-color: #fff;
+}
+
+.opening_price {
+  font-size: 30px;
+  font-weight: 600;
+  color: #838383;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.asset_title {
+  padding: 4px 0 0 0;
+  font-weight: 700;
+}
+
+.dollar_sign {
+  font-size: 30px;
+  font-weight: 600;
+  color: #838383;
+  padding: 0 0 0 1rem;
+}
+
+.red {
+  color: #ff2525;
+}
+
+.green {
+  color: #00c40a;
+}
