@@ -39,7 +39,6 @@ const BinanceDataStream = () => {
       const low = parseFloat(message.k.l)
       const close = parseFloat(message.k.c)
 
-      // Create a data point with the start time of the 1s candle and the OHLC data for the candle
       const dataPoint = {
         time: timestamp,
         open: open,
@@ -48,7 +47,6 @@ const BinanceDataStream = () => {
         close: close,
       }
 
-      // Limit the data array to 500 points (about 8 minutes of data)
       const newData = [...prevData]
       if (newData.length >= 150) {
         newData.shift()

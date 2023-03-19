@@ -4,8 +4,6 @@ import * as LightweightCharts from "lightweight-charts"
 export default function CandlestickChart({ data }) {
   const chartRef = useRef()
 
-  // console.log(data)
-
   useEffect(() => {
     const chart = LightweightCharts.createChart(chartRef.current, {
       width: 1000,
